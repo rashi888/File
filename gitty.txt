@@ -1,0 +1,30 @@
+cd desktop
+cd fileName
+git config --global user.name "Rashi"
+git config --global user.email "rashidixit129@gmail.com"
+touch .gitignore
+git init
+git add .
+git commit -m "first commit"
+git status
+git remote add origin <SSH link from above>
+ssh-keygen -t ed25519 -C "rashidixit129@gmail.com"
+get .pub on cmd
+cat paste above wali link take output make new ssh key
+git push origin master
+
+DONE
+
+echo "# bubbly" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:rashi888/bubbly.git
+git push -u origin main
+
+git remote -v
+
+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
+
+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
